@@ -1,0 +1,21 @@
+import org.springframework.stereotype.Service;
+
+@Service
+public class AIGraderService {
+
+    // Simulate grading an assignment
+    public String gradeAssignment(String assignment) {
+        // Simulate the logic for grading the assignment
+        if (assignment == null || assignment.trim().isEmpty()) {
+            return "No assignment provided for grading.";
+        }
+        // Just an example of the grading process
+        return "The assignment " + assignment + " has been successfully graded!";
+    }
+
+    // Simulate generating feedback
+    public String generateFeedback() {
+        // Simulate generating feedback after grading
+        return "Feedback generated: Great job on the assignment! Keep up the good work!";
+    }
+}
